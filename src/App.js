@@ -1,3 +1,4 @@
+import LoginPage from "./LoginPage";
 import PopCat from "./PopCat";
 import UseCard from "./UserCard";
 function App() {
@@ -10,6 +11,7 @@ function App() {
       id="1"
       />
       <PopCat/>
+      <LoginPage/>
     </div>
   );
 }
