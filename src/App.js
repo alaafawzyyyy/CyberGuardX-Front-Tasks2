@@ -1,3 +1,4 @@
+import Calculator from "./Calculator";
 import LoginPage from "./LoginPage";
 import PopCat from "./PopCat";
 import UseCard from "./UserCard";
@@ -12,6 +13,7 @@ function App() {
       />
       <PopCat/>
       <LoginPage/>
+      <Calculator/>
     </div>
   );
 }
