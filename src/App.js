@@ -1,3 +1,4 @@
+import PopCat from "./PopCat";
 import UseCard from "./UserCard";
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       age={22}
       id="1"
       />
+      <PopCat/>
     </div>
   );
 }
