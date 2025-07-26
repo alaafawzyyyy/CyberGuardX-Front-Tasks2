@@ -1,8 +1,13 @@
-import './App.css';
-
+import UseCard from "./UserCard";
 function App() {
   return (
-    <div className="App">
+    <div>
+      <UseCard
+      name="alaa shaaban"
+      email="alaa.shaaban943@gmail.com"
+      age={22}
+      id="1"
+      />
     </div>
   );
 }
